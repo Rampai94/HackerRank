@@ -5,10 +5,10 @@ import java.util.Scanner;
  *
  * @author RP53993 (ramamity94@gmail.com) created on 8/3/2019 inside the package - PACKAGE_NAME
  **/
-public class Person {
+public class ClassVsInstance {
     private int age;
 
-    public Person(int initialAge) {
+    public ClassVsInstance(int initialAge) {
         // Add some more code to run some checks on initialAge
         if(initialAge < 0){
             age = 0;
@@ -38,7 +38,7 @@ public class Person {
         int T = sc.nextInt();
         for (int i = 0; i < T; i++) {
             int age = sc.nextInt();
-            Person p = new Person(age);
+            ClassVsInstance p = new ClassVsInstance(age);
             p.amIOld();
             for (int j = 0; j < 3; j++) {
                 p.yearPasses();

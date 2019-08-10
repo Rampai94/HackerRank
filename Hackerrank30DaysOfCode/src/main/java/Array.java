@@ -5,7 +5,7 @@ import java.util.Scanner;
  *
  * @author RP53993 (ramamity94@gmail.com) created on 8/5/2019 inside the package - PACKAGE_NAME
  **/
-public class Arrays {
+public class Array {
     private static final Scanner scanner = new Scanner(System.in);
 
     private static void printReverse(int [] array){
