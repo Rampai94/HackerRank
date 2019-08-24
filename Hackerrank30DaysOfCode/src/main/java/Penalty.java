@@ -22,8 +22,8 @@ public class Penalty {
         int yearDifference = actualYear - expectedYear;
 
 
-        System.out.println (
-                (actualYear - expectedYear > 0 ) ? 10000
+        System.out.println(
+                (actualYear - expectedYear > 0) ? 10000
                         : (actualMonth - expectedMonth > 0 && yearDifference == 0) ? monthsLate * 500
                         : (actualDay - expectedDay > 0 && yearDifference == 0) ? daysLate * 15
                         : 0
